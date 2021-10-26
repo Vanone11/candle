@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    
+    font-family: 'Lato';
+    text-align: center;
+    }
+    .intro-image {
+        background-attachment: fixed;
+        background-image: url('../img/pic1.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .btn {
+        background-color:#bc9e96c9;
+        border: 2px solid #af91698a;
+        color: #563735;
+        display: inline-block;
+        font-size: 2.5rem;
+        padding: 2rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: all 1s ease-in-out;
+        }
+
+        .btn:hover {
+            transform: scale(1.1);
+            }
+
+
+.intro-text__textbox{
+    overflow: hidden;
+    height: 30vh;
+    background-color: #eea97c;
+    text-align: center;
+  padding: 5rem;
+  clip-path: polygon(64% 9%, 80% 0%, 100% 0, 100% 78%, 19% 79%, 0 98%, 0 25%, 0 9%);
+margin-top: -5rem;
+margin-bottom: -5rem;
+        }
+.intro-text__textbox h3{
+color: aliceblue;
+text-transform: uppercase;
+font-family: 'Lato';
+font-size: 2rem;
+}
+.intro-text__textbox p{
+    color: aliceblue;
+    text-transform:none;
+    font-family: 'Lato';
+    font-size: 2rem;
+    }
+.heading-solid_1{
+    
+    letter-spacing: 1.1rem;
+    animation-name: moveInRight;
+animation-duration: 4s;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes moveInRight{
+   
+        0% {
+            transform: translateX(100px);
+        opacity: 0;
+        }
+        
+        80%{
+            transform: translateX(-50px);
+        }
+        
+        
+        100%{
+            transform: translateX(0);
+            opacity: 1;
+        }
+        
+}
+
+
+
+.packaging-image{
+                background-attachment: fixed;
+                background-image: url('../img/pic2.jpeg');
+            background-size: cover;
+            background-position: bottom;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            }
+
+
+            .packaging_text__textbox{
+                height: 30vh;
+                background-color: #eea97c;
+                text-align: center;
+              padding: 5rem;
+              clip-path: polygon(21% 11%, 71% 4%, 100% 0, 100% 70%, 100% 100%, 0 100%, 0% 70%, 0% 30%);
+              margin-top: -5.5rem;
+              margin-bottom: -5rem;
+              
+            }
+            .packaging_text__textbox h3{
+                color: bisque;
+                text-transform: uppercase;
+                font-size: 2.5rem;
+            }
+
+            .heading-solid_2{
+    
+                letter-spacing: 1.1rem;
+                animation-name: moveInLeft;
+            animation-duration: 4s;
+            animation-timing-function: ease-in-out;
+            }
+            
+            @keyframes moveInLeft{
+               
+                    0% {
+                        transform: translateX(-100px);
+                    opacity: 0;
+                    }
+                    
+                    80%{
+                        transform: translateX(50px);
+                    }
+                    
+                    
+                    100%{
+                        transform: translateX(0);
+                        opacity: 1;
+                    }
+                    
+            }     
+            .packaging_text__textbox p{
+                color: rgb(255, 242, 224);
+                font-size: 1.5rem;
+            
+            
+            }
+
+            .tutorials-image{
+                background-attachment: fixed;
+                background-image: url('../img/pic3.jpeg');
+                background-size: cover;
+        
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: coral;
+
+            }
+            .tutorials-image__text{
+                background-color: coral;
+            }
+
+            .footer{
+                height: 250px;
+                background-color: rgb(248, 177, 152);
+                color: rgb(245, 240, 240);
+                font-size: 1.5rem;
+                padding-top: 2rem;
+                
+                
+                
+                }
+                
+                .footer ul li {
+                display: inline-block;
+                margin: 1rem;
+                }
+                
+                .footer ul li a{
+                color: rgb(245, 240, 240) ;
+                text-decoration: none;
+                }
+                
+                .footer ul li:hover {    
+                transform: scale(1.1);
+                }
+                
+                
